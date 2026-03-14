@@ -11,24 +11,7 @@
 
 ## 安装
 
-### 方式一：直接运行
-
-```bash
-pip install -r requirements.txt
-python qq_monitor.py
-```
-
-### 方式二：打包成可执行文件
-
-```bash
-# 安装打包工具
-pip install pyinstaller
-
-# 打包
-pyinstaller --onefile --windowed --name "QQMonitor" qq_monitor.py
-```
-
-打包后的可执行文件在 `dist/` 目录下。
+下载对应的文件 双击即可
 
 ## 使用说明
 
